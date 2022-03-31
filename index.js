@@ -1,9 +1,10 @@
 const express = require("express");
+var cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
 const playbooksList = require("./data/playbooks-list");
 
-console.log(playbooksList);
+app.use(cors());
 
 app.listen(PORT, () => {
   console.log("Express server listening on port %d", PORT);
