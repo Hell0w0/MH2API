@@ -1,15 +1,12 @@
 const express = require("express");
 const app = express();
+const PORT = process.env.PORT || 3000;
 const playbooksList = require("./data/playbooks-list");
 
 console.log(playbooksList);
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(
-    "Express server listening on port %d in %s mode",
-    this.address().port,
-    app.settings.env
-  );
+app.listen(PORT, () => {
+  console.log("Express server listening on port %d", PORT);
 });
 app.get("/api/playbooks", (req, res) => {
   res.status(200).send(res.json(playbooksList));
