@@ -1,0 +1,80 @@
+{
+  "index": "fae",
+  "skin": "The Fae",
+  "description": "At the edges of this world, just beyond the veil, there are colours that few mortals even dream of. Beauty enough to shatter any heart. The Fae live and breathe at the edges of this world. They keep a dusting of that magic tucked behind their ears, just in case. And the Fae are willing to share. They’re nothing if not generous, asking for only one thing in return. A promise. Keep it, and the true beauty of the world will be revealed. Break it, and feel the wrath of faery vengeance.",
+  "stats": [
+    {
+      "hot": 2,
+      "cold": -1,
+      "volatile": -1,
+      "dark": 1
+    },
+    {
+      "hot": 1,
+      "cold": -1,
+      "volatile": 2,
+      "dark": -1
+    }
+  ],
+  "sexMove": "When you lie naked with another, you can ask them for a promise. If they refuse, take 2 Strings on them. ",
+  "darkestSelf": "Everything you say seems a promise. Everything you hear seems a promise. If a promise is broken, justice must be wrought in trickery or blood. You aren’t subject to the human rules of mercy. To escape your Darkest Self, you must in some way re-balance the scales of justice.",
+  "backstory": [
+    "You wear your heart on your sleeve. Give everyone one 'String'.",
+    "You’ve captured someone’s fancy. Gain 2 Strings on them."
+  ],
+  "moves": {
+    "preSelectedMoveSlots": 1,
+    "preSelectedMove": [
+      {
+        "name": "Faery Contract",
+        "description": "If someone breaks a promise or contract made to you, take a String on them. When spending a String to even out the score and get justice on a broken promise, add these options to Pulling Strings: \n they fuck up something simple at a crucial moment, suffering 1 Harm if appropriate, /n add 2 to your roll on an act of vengeance."
+      }
+    ],
+    "optionalMovesSlots": 1,
+    "optionalMoves": [
+      {
+        "name": "Unashamed",
+        "description": "You can give someone a String on you to add 3 to your attempt to Turn Them On."
+      },
+      {
+        "name": "The Wild Hunt",
+        "description": "When you draw upon your most feral manner, echoing the lithe movements of a cat or the voracity of a wolf, add 1 to your roll to Turn Someone On."
+      },
+      {
+        "name": "Lure",
+        "description": "Whenever someone makes a promise to you, they mark experience. Whenever someone breaks a promise to you, you mark experience."
+      },
+      {
+        "name": "Guide",
+        "description": "If you spend a String on someone willing, you can bring them across the veil, into the faery realm. The spell lasts for a scene or two, before you’re both returned to the mundane world."
+      },
+      {
+        "name": "Beyond The Veil",
+        "description": "To seek audience with the Faery King, Gaze Into the Abyss. On a 10 up, in addition to other results, the Faery King reveals to you a hidden String on someone. Gain it. • On a 7 to 9, in addition to other results, the Faery King demands a favour of you."
+      }
+    ]
+  },
+  "identity": {
+    "look": [
+      "dainty",
+      "girlish",
+      "gaunt",
+      "mysterious",
+      "dishevelled"
+    ],
+    "eyes": [
+      "quick",
+      "lyrical",
+      "mesmerizing",
+      "laughing",
+      "piercing"
+    ],
+    "origin": [
+      "fae born",
+      "fae blooded",
+      "swapped at birth",
+      "stole the gift",
+      "touched with the gift"
+    ]
+  }
+}

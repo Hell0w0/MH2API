@@ -1,0 +1,80 @@
+{
+  "index": "ghost",
+  "skin": "The Ghost",
+  "description": "You used to have a future. Growing up was a painful tumult at times, but at least you were growing. Now you only have a past - unfinished business to take care of before you can leave this world behind. Life is precious. You understand that, now that you’ve lost yours. You just want to help. You just want to be seen. But sometimes even the simplest desires feel so difficult to grasp.",
+  "stats": [
+    {
+      "hot": -1,
+      "cold": 2,
+      "volatile": -1,
+      "dark": 1
+    },
+    {
+      "hot": -1,
+      "cold": -1,
+      "volatile": 1,
+      "dark": 2
+    }
+  ],
+  "sexMove": "When you have sex with someone, you both get to ask a question of one another. This can be asked in character or player-to-player. They must answer honestly and directly.",
+  "darkestSelf": "You become invisible, unnoticeable. No one can see you, feel you, or hear your voice. You can still affect inanimate objects, but this is your only avenue of communication. You escape your Darkest Self when someone acknowledges your presence, and demonstrates how much they want you around.",
+  "backstory": [
+    "Someone knows that you’re dead and how you died. They gain 2 Strings on you.",
+    "You’ve been inside someone’s bedroom while they were sleeping. Take a String on them."
+  ],
+  "moves": {
+    "preSelectedMoveSlots": 1,
+    "preSelectedMove": [
+      {
+        "name": "Unresolved Trauma",
+        "description": "Whenever something brings to mind your death, you choke up and gain the Condition traumatized if you don’t have it already. Whenever someone helps you resolve this Condition, you both mark experience."
+      }
+    ],
+    "optionalMovesSlots": 2,
+    "optionalMoves": [
+      {
+        "name": "Helpful Spirit",
+        "description": "When you help someone resolve a Condition, gain a String on them."
+      },
+      {
+        "name": "Transference",
+        "description": "Whenever you spend time truly listening to someone else’s struggles, they heal 1 Harm, and then transfer their remaining harm to you."
+      },
+      {
+        "name": "Projected Blame",
+        "description": "While you’ve got the Condition traumatized, you may act as though others had the Condition at fault for my death."
+      },
+      {
+        "name": "Creep",
+        "description": "When you silently witness someone in one of their most private moments, perhaps sleeping or putting on makeup, gain a String on them."
+      },
+      {
+        "name": "Limitless",
+        "description": "You can walk through walls and fly."
+      }
+    ]
+  },
+  "identity": {
+    "look": [
+      "forlorn",
+      "scared",
+      "stuffy",
+      "out of place",
+      "brooding"
+    ],
+    "eyes": [
+      "hollow",
+      "pained",
+      "dull",
+      "unnerving",
+      "unnerving"
+    ],
+    "origin": [
+      "left to die",
+      "murdered in cold blood",
+      "murdered in hot passion",
+      "a tragic accident",
+      "a confused death"
+    ]
+  }
+}
