@@ -1,27 +1,18 @@
-const express = require("express")();
+const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+const playbooksList = require("./data/playbooks-list");
 
-app.use(express.json());
+console.log(playbooksList);
+
+app.listen(PORT, () => console.log("Its working on port " + PORT));
+
 app.get("/api/playbooks", (req, res) => {
-  res.status(200).send({
-    count: 10,
-    results: [
-      {
-        index: "fae",
-        name: "The Fae",
-        url: "",
-      },
-      {
-        index: "ghost",
-        name: "The Ghost",
-        url: "",
-      },
-      {
-        index: "ghoul",
-        name: "The Ghoul",
-        url: "",
-      },
-    ],
-  });
+  res.status(200).send(res.json(playbooksList));
+});
+
+app.get("/api/playbooks/:index", (req, res) => {
+  const index = req.params.index;
+  const playbook = require(`./data/playbooks/${index}.json`);
+  res.status(200).send(res.json(playbook));
 });
