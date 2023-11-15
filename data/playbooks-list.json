@@ -4,17 +4,20 @@
     {
       "index": "fae",
       "name": "The Fae",
-      "url": ""
+      "url": "",
+      "description": "At the edges of this world, just beyond the veil, there are colours that few mortals even dream of. Beauty enough to shatter any heart. The Fae live and breathe at the edges of this world. They keep a dusting of that magic tucked behind their ears, just in case. And the Fae are willing to share. They’re nothing if not generous, asking for only one thing in return. A promise. Keep it, and the true beauty of the world will be revealed. Break it, and feel the wrath of faery vengeance."
     },
     {
       "index": "ghost",
       "name": "The Ghost",
-      "url": ""
+      "url": "",
+      "description": "You used to have a future. Growing up was a painful tumult at times, but at least you were growing. Now you only have a past - unfinished business to take care of before you can leave this world behind. Life is precious. You understand that, now that you’ve lost yours. You just want to help. You just want to be seen. But sometimes even the simplest desires feel so difficult to grasp."
     },
     {
       "index": "ghoul",
       "name": "The Ghoul",
-      "url": ""
+      "url": "",
+      "description": "Death changed you. It took away your contemplative joy, it dulled your senses, and it left you impossibly hungry. That hunger is always with you, like a hum in your ears that swells and crescendos until you can’t hear anything else. Unattended, it will come to dominate you - but feeding it may be just as bad. There is a certain beauty to what you’ve become. Your gaunt body, its unnatural form - it draws people in. Your stark disinterest is beguiling. But underneath that disaffected presentation - the hunger, the hunger."
     }
   ]
 }
